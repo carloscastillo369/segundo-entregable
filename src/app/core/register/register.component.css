@@ -1,0 +1,16 @@
+.register-container {
+    max-width: 400px;
+    margin: 0px auto;
+    padding-top: 60px;
+    height: calc(100vh - 56px);
+}
+
+.register-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 100%;
+}
