@@ -1,0 +1,17 @@
+p {
+    margin-bottom: 8px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-img {
+    opacity: 60%;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

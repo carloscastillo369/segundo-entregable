@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { RouterModule } from '@angular/router';
 import { InitialContentComponent } from './home/components/initial-content/initial-content.component';
 import { CarouselComponent } from './home/components/carousel/carousel.component';
+import { ListMoviesComponent } from './home/components/list-movies/list-movies.component';
 
 
 
@@ -15,7 +16,8 @@ import { CarouselComponent } from './home/components/carousel/carousel.component
     LoginComponent,
     RegisterComponent,
     InitialContentComponent,
-    CarouselComponent
+    CarouselComponent,
+    ListMoviesComponent
   ],
   imports: [
     CommonModule,
