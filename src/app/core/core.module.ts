@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { RouterModule } from '@angular/router';
+import { InitialContentComponent } from './home/components/initial-content/initial-content.component';
+import { CarouselComponent } from './home/components/carousel/carousel.component';
 
 
 
@@ -11,7 +13,9 @@ import { RouterModule } from '@angular/router';
   declarations: [
     HomeComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    InitialContentComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,

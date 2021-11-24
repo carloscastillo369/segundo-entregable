@@ -1,8 +1,8 @@
 .register-container {
     max-width: 400px;
     margin: 0px auto;
-    padding-top: 60px;
-    height: calc(100vh - 56px);
+    padding-top: 30px;
+    height: calc(100vh - 56px - 100px);
 }
 
 .register-form {
