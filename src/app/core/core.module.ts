@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { InitialContentComponent } from './home/components/initial-content/initial-content.component';
 import { CarouselComponent } from './home/components/carousel/carousel.component';
 import { ListMoviesComponent } from './home/components/list-movies/list-movies.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -17,7 +18,8 @@ import { ListMoviesComponent } from './home/components/list-movies/list-movies.c
     RegisterComponent,
     InitialContentComponent,
     CarouselComponent,
-    ListMoviesComponent
+    ListMoviesComponent,
+    PageNotFoundComponent
   ],
   imports: [
     CommonModule,
